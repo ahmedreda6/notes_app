@@ -22,6 +22,7 @@ class NotesView extends StatelessWidget {
         },
         backgroundColor: KprimaryColor,
         child: const Icon(
+          color: Colors.black,
           Icons.add,
         ),
       ),
