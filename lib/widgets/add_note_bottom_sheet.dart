@@ -13,7 +13,16 @@ class AddNoteBoottomSheet extends StatelessWidget {
           SizedBox(
             height: 32,
           ),
-          CustomTextField(),
+          CustomTextField(
+            hint: 'Title',
+          ),
+          SizedBox(
+            height: 16,
+          ),
+          CustomTextField(
+            maxlines: 5,
+            hint: 'Content',
+          ),
         ],
       ),
     );
