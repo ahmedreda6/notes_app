@@ -9,22 +9,22 @@ class CustomTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
-      cursorColor: KprimaryColor,
+      cursorColor: kPrimaryColor,
       maxLines: maxlines,
       decoration: InputDecoration(
         hintText: hint,
-        border: Buildborder(),
-        enabledBorder: Buildborder(),
-        focusedBorder: Buildborder(KprimaryColor),
+        border: buildBorder(),
+        enabledBorder: buildBorder(),
+        focusedBorder: buildBorder(kPrimaryColor),
       ),
     );
   }
 
-  OutlineInputBorder Buildborder([Color]) {
+  OutlineInputBorder buildBorder([color]) {
     return OutlineInputBorder(
       borderRadius: BorderRadius.circular(16),
       borderSide: BorderSide(
-        color: Color ?? Colors.white,
+        color: color ?? Colors.white,
       ),
     );
   }
