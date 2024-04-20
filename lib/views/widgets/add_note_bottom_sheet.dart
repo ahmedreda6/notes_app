@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:notes_app/widgets/custom_botton.dart';
-import 'package:notes_app/widgets/custom_text_field.dart';
+import 'package:notes_app/views/widgets/custom_botton.dart';
+import 'package:notes_app/views/widgets/custom_text_field.dart';
 
 class AddNoteBoottomSheet extends StatelessWidget {
   const AddNoteBoottomSheet({super.key});
