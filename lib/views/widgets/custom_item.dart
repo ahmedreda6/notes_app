@@ -16,16 +16,15 @@ class NotesItem extends StatelessWidget {
           context,
           MaterialPageRoute(
             builder: (context) {
-              return const EditViewBody();
+              return  EditViewBody(
+                note: note,
+              );
             },
           ),
         );
       },
       child: Container(
-        padding: const EdgeInsets.only(
-          top: 24,
-          bottom: 24,
-        ),
+        padding: const EdgeInsets.only(top: 24, bottom: 24),
         decoration: BoxDecoration(
           color: Color(note.color),
           borderRadius: BorderRadius.circular(16),
