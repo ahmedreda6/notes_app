@@ -26,6 +26,7 @@ class CustomAppBar extends StatelessWidget {
         CustomSearchIcon(
           onPressed: onPressed,
           icon: icon,
+          
         ),
       ],
     );
